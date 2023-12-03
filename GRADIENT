@@ -12,3 +12,4 @@ print ("Gradient:")
 print (gradient)
 print ("\nHessian:")
 print (hessian) 
+
