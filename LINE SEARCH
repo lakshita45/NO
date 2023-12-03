@@ -26,8 +26,8 @@ iteration += 1
  
 # Initial parameters 
 initial_x = 0.0 
-learning_rate = 0.1 
-epsilon = 1e-6 
+learning_rate = 0.1 #step size
+epsilon = 1e-6    #stopping condition
  
 result_x, result_min, iterations = line_search(initial_x, learning_rate, 
 epsilon) 
